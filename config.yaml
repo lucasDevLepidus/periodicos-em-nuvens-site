@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: 'https://periodicos-em-nuvens-site.pages.dev/'
 languageCode: pt-br
 defaultContentLanguage: pt
 title: Periódicos em Nuvens | Soluções para revistas acadêmicas em SEER / OJS
