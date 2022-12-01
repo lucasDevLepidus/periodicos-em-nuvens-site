@@ -73,6 +73,3 @@ menu:
     - name: Solicitar Orçamento
       url: /solicitar-orcamento/
       weight: 5
-    - name: Contratação por pessoa jurídica
-      url: /contratar/
-      weight: 6
