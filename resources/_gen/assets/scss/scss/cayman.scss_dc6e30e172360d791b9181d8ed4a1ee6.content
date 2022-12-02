@@ -385,6 +385,8 @@ a {
     margin-bottom: 1rem;
     font-weight: normal;
     color: #292929ff; }
+  .main-content .sectionHeight {
+    height: 100vh; }
   .main-content section > .containerWhoWeAre {
     height: 100vh; }
 
