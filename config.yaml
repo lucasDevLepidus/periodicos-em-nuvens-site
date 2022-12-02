@@ -73,3 +73,6 @@ menu:
     - name: Solicitar Orçamento
       url: /solicitar-orcamento/
       weight: 5
+    - name: Contratar
+      url: /contratar/
+      weight: 6
