@@ -1,6 +1,6 @@
 baseURL: 'https://feathiringoflegalentityinfoo.periodicos-em-nuvens-site.pages.dev/'
 languageCode: pt-br
-defaultContentLanguage: pt
+defaultContentLanguage: en
 title: Periódicos em Nuvens | Soluções para revistas acadêmicas em SEER / OJS
 theme: cayman-hugo-theme
 
