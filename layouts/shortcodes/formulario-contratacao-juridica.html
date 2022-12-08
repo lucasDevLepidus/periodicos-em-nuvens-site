@@ -130,22 +130,26 @@
     <input type="text" name="telefone_responsavel_financeiro" required />
 
     <h2>Contrato</h2>
-    <p>
-      Se preferir, uma cópia em PDF do contrato pode ser acessada
-      <a
-        href="https://periodicos.emnuvens.com.br/wp-content/uploads/2013/12/ContratoPeN.pdf"
-        >aqui</a
-      >
-    </p>
+    <div class="containerContract">
+      <p class="textContract">
+        Se preferir, uma cópia em PDF do contrato pode ser acessada
+        {{- with .Get 0 -}}
+          <a href="{{ . }}" download> aqui</a>
+        {{- else -}}
+          {{- errorf "The %s shortcode requires a single positional parameter, a URL. See %s" .Name .Position -}}
+        {{- end -}}
+      </p>
+  
+      <div class="embedContract">
+        {{- with .Get 0 -}}
+          <embed src="{{ . }}" type="application/pdf">
+        {{- else -}}
+          {{- errorf "The %s shortcode requires a single positional parameter, a URL. See %s" .Name .Position -}}
+        {{- end -}}
+      </div>
+    </div>
 
-    <iframe
-      src="https://periodicos.emnuvens.com.br/wp-content/uploads/2013/12/ContratoPeN.pdf"
-      width="900px"
-      height="320px"
-    >
-    </iframe>
-
-    <div>
+    <div class="checkbox-margin-top">
       <input type="checkbox" name="aceite_do_contrato" value="1" required />
       <label> Li e aceito os termos do contrato.</label>
     </div>

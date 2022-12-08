@@ -12,4 +12,4 @@ Para contratar o Periódicos em Nuvens, por favor preencha o formulário abaixo 
 
 Após o envio do formulário preenchido, entraremos em contato para confirmar as informações e dar prosseguimento à contratação.
 
-{{< formulario-contratacao-juridica >}}
+{{< formulario-contratacao-juridica "contratoPeN.pdf" >}}

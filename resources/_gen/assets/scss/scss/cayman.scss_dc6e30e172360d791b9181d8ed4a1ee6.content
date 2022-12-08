@@ -464,6 +464,15 @@ a {
     border: none;
     font-style: italic; }
 
+.containerContract .embedContract {
+  width: 100%; }
+  .containerContract .embedContract embed {
+    width: 150%;
+    height: 80vh; }
+
+.checkbox-margin-top {
+  margin-top: .5rem; }
+
 #footer {
   background: #222;
   padding: 2.1875rem 0 1rem 0; }
